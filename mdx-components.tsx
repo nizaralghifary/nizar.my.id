@@ -9,7 +9,7 @@ const components: MDXComponents = {
       {...props}
     />
   ),
-  a: (props) => <a className="underline underline-offset-1 hover:text-indigo-600" {...props}/>,
+  a: (props) => <a className="underline underline-offset-1 hover:text-[#52401c]" {...props}/>,
   li: (props) => <li className="list-disc ml-6 mb-1" {...props}/>
 }
 

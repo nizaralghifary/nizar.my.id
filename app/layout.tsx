@@ -13,13 +13,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="bg-[#ebe9f5] p-10">
+      <body className="bg-[#fef8ec] p-10">
         <header className="mb-8">
           <Image
             src="/Icon.png"
             alt="Nizar Alghifary"
-            width={64}
-            height={64}
+            width={100}
+            height={100}
+            quality={90}
             priority
           />
         </header>
